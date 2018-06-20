@@ -1,8 +1,8 @@
 ---
-sidebar: auto
 title: Markdown examples
 ---
-# Markdown examples
+# Markdown examples test
+
 Edit on 30.04.2018 with NetlifyCMS
 
 # h1 HmHm 8-)
@@ -37,20 +37,23 @@ Edit on 30.04.2018 with NetlifyCMS
 ## Typographic replacement
 
 (c) (C) (r) (R) (tm) (TM) (p) (P) +-
+
 ```
 (c) (C) (r) (R) (tm) (TM) (p) (P) +-
 ```
+
 ## Emphasis
 
 **This is bold text**
 
-__This is bold text__
+**This is bold text**
 
-*This is italic text*
+_This is italic text_
 
 _This is italic text_
 
 ~~Strikethrough~~
+
 ```
 **This is bold text**
 
@@ -70,6 +73,7 @@ _This is italic text_
 > > ...by using additional greater-than signs right next to each other...
 > >
 > > > ...or with spaces between arrows.
+
 ```
 > Blockquotes can also be nested...
 >
@@ -89,6 +93,8 @@ Unordered
     * Facilisis in pretium nisl aliquet
     * Nulla volutpat aliquam velit
 * Very easy!
+
+
 ```
 * Create a list by starting a line with `+`, `-`, or `*`
 * Sub-lists are made by indenting 2 spaces:
@@ -111,6 +117,8 @@ Start numbering with offset:
 
 57. foo
 58. bar
+
+
 ```
 Ordered
 
@@ -153,6 +161,7 @@ Right aligned columns
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default.    |
 | ext    | extension to be used for dest files.                                      |
+
 ```
 | Option | Description                                                               |
 | ------ | ------------------------------------------------------------------------- |
@@ -174,6 +183,7 @@ Right aligned columns
 [link text](http://dev.nodeca.com)
 
 [link with title](http://nodeca.github.io/pica/demo/ "title text!")
+
 ```
 [link text](http://dev.nodeca.com)
 
@@ -205,6 +215,7 @@ Like links, Images also have a footnote style syntax
 > Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
 >
 > Shortcuts (emoticons): :-) :-( 8-) ;)
+
 ```
 > Classic markup: :wink: :crush: :cry: :tear: :laughing: :yum:
 >
@@ -214,6 +225,7 @@ Like links, Images also have a footnote style syntax
 ::: warning
 _here be dragons_
 :::
+
 ```
 ::: warning
 _here be dragons_
